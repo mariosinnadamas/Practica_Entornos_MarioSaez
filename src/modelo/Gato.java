@@ -15,8 +15,8 @@ public class Gato extends Animal{
      * Imprime "Miau"
      */
     @Override
-    public void sonido() {
-        System.out.println("Miau");
+    public String sonido() {
+        return "Miau";
     }
 
     /**

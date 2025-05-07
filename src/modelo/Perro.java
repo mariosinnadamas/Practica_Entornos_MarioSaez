@@ -25,8 +25,8 @@ public class Perro extends Animal{
      * Imprime "Guau"
      */
     @Override
-    public void sonido() {
-        System.out.println("Guau");
+    public String sonido() {
+        return "Guau";
     }
 
     /**

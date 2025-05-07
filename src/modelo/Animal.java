@@ -56,5 +56,5 @@ public abstract class Animal {
      * Metodo abstracto que representa el sonido que hace un animal
      * Debe ser implementado en subclases
      */
-    public abstract void sonido();
+    public abstract String sonido();
 }
